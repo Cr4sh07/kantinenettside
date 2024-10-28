@@ -10,6 +10,7 @@ const menuData = {
     // Fortsett for resten av uken med navn, beskrivelse, pris og bilde
 };
 
+
 // Faste varer
 const itemsData = [
     { name: "Bagett", price: 25 },
