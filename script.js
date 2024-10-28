@@ -1,11 +1,11 @@
-// Menydata med bilder
+// Menydata
 const menuData = {
     "Mandag": [
-        { name: "Spaghetti Bolognese", description: "Pasta med kjøttsaus", price: 50, image: "Bilder/Spaghetti.jpg" },
-        { name: "Grønnsaksuppe", description: "Suppe med ferske grønnsaker", price: 30, image: "Bilder/Grønnsakssuppe.jpg" }
+        { name: "Spaghetti Bolognese", description: "Pasta med kjøttsaus", price: 50},
+        { name: "Grønnsaksuppe", description: "Suppe med ferske grønnsaker", price: 30}
     ],
     "Tirsdag": [
-        { name: "Taco", description: "Taco med kjøtt, grønnsaker og salsa", price: 55, image: "Bilder/Taco.jpg" }
+        { name: "Taco", description: "Taco med kjøtt, grønnsaker og salsa", price: 55}
     ],
     // Fortsett for resten av uken med navn, beskrivelse, pris og bilde
 };
