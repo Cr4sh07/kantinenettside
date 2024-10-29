@@ -23,12 +23,20 @@ function displayMenu() {
     const menuContent = document.getElementById("menu-content");
     for (let day in menuData) {
         let daySection = document.createElement("section");
-        daySection.innerHTML = `<h3>${day}</h3>`;
-        menuData[day].forEach(item => {
-            daySection.innerHTML += `
-                <p><strong>${item.name}</strong>: ${item.description} - ${item.price} kr</p>
-            `;
-        });
+        daySection.innerHTML = '<h3>' + day + '</h3>';
+        // Itererer gjennom hvert element i menuData[day] arrayet
+        for (let i = 0; i < menuData[day].length; i++) {
+            // Henter hvert element (item) fra menuData[day] basert på indeksen i
+            const item = menuData[day][i];
+            
+            // Legger til en ny paragraf i daySection sin HTML.
+            // Denne paragrafen inneholder:
+            // - item.name i fet skrift
+            // - item.description
+            // - item.price med 'kr' lagt til på slutten
+            daySection.innerHTML +=
+                "<p><strong>" + item.name + "</strong>: " + item.description + " - " + item.price + " kr</p>";
+        }
         menuContent.appendChild(daySection);
     }
 }
