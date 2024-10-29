@@ -11,6 +11,14 @@ header, footer {
     color: #fff;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
 nav a {
     margin: 0 10px;
     color: #fff;
