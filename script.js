@@ -14,7 +14,7 @@ const menuData = {
 // Faste varer
 const itemsData = [
     { name: "Bagett", price: 25 },
-    { name: "Sjokolade", price: 15 },
+    { name: "Sjokolade", price: 50 },
     { name: "Mineralvann", price: 20 }
 ];
 
